@@ -37,7 +37,6 @@ public class CustomExceptionHandler {
             return "Custom error message for lastName field";
         }
 
-        // Return the default error message if no customization is needed
         return defaultMessage;
     }
 }
